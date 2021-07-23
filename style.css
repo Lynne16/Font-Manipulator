@@ -3,7 +3,7 @@
     width: 100%;
     margin: 0px;
     border-radius: 15px;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px rgb(157, 220, 236);
 }
 .note{
     font-size: 15px;
@@ -22,5 +22,5 @@
 canvas{
     border: 5px solid black;
     border-radius: 5px;
-    box-shadow: 5px 5px 10px rgb(198, 127, 212);
+    box-shadow: 5px 5px 10px rgb(180, 233, 221);
 }
