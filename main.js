@@ -15,10 +15,20 @@ function modelLoaded(){
 
 function gotPoses(results){
     if(results.length > 0){
+
         console.log(results);
+
+        LeftwristX=results[0].pose.leftWrist.x;
+        RightwristX=results[0].pose.rightWrist.x;
+        console.log("X postion of the Leftwrist "+LeftwristX+" X position of the Rightwrist "+RightwristX);
+
+        difference=floor(LeftwristX-RightwristX);
     }
 }
 
 function draw(){
     background('#e39df5');
+    textSize(difference);
+    fill('#000000')
+    text('Lynne',50,400)
 }
