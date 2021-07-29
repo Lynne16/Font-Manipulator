@@ -12,6 +12,9 @@ function setup(){
 function modelLoaded(){
     console.log('Model Loaded!');
 }
+LeftwristX=0;
+RightwristX=0;
+difference=0;
 
 function gotPoses(results){
     if(results.length > 0){
